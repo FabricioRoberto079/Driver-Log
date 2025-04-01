@@ -168,7 +168,8 @@ async function gerarPDF() {
         }
     }
 
-    // Captura e processa os elementos HTML
+    
+    
     const dadosResumoDiv = document.getElementById('dadosResumo');
     const elementos = dadosResumoDiv.querySelectorAll('h2, h3, li, img');
 
